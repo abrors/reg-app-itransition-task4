@@ -1,0 +1,24 @@
+nav{
+    height: 3rem;
+    background-color: #292c2a;
+    color: white;
+}
+nav ul{
+    margin: auto;
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+nav ul a:hover {
+    color: rgb(255, 255, 255);
+    background-color: white;
+    color: black;
+}
